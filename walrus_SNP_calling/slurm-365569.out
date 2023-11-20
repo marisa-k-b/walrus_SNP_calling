@@ -1,0 +1,28 @@
+Starting job 365569 on c1-25 at Thu Nov 16 14:13:39 CET 2023
+
+To execute Trimmomatic run: java -jar $EBROOTTRIMMOMATIC/trimmomatic-0.39.jar
+‘WLR011.Wal_mt.realigned.bam HaplotypeCalled’
+Finished running jobs
+
+Task and CPU usage stats:
+JobID           JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+365569         test_job          1                                             00:01:15      0:0 
+365569.batch      batch          1        1   00:00:32          0   00:00:32   00:01:15      0:0 
+365569.exte+     extern          1        1   00:00:00          0   00:00:00   00:01:15      0:0 
+
+Memory usage stats:
+JobID            MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+365569                                                                           
+365569.batch   1362796K          0   1362796K        0              0          0 
+365569.exte+          0          0          0        0              0          0 
+
+Disk usage stats:
+JobID         MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+365569                                                                                                
+365569.batch        3.73M               0          3.73M        0.27M                0          0.27M 
+365569.exte+        0.01M               0          0.01M        0.00M                0          0.00M 
+
+Job 365569 completed at Thu Nov 16 14:14:53 CET 2023
